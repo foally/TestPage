@@ -1,0 +1,18 @@
+initiating a git :
+	git add 
+	git commit -m 'Message'
+	git branch -M main
+	git remote add origin git@github.com:foally/tab_stuff.git
+	git push -u origin main
+
+--------------------------------------------------------------------
+#!/bin/bash
+
+#git init
+
+git add $HOME/Programms
+#git add $HOME/*
+git commit -m 'Backup'
+git branch -M main
+#git remote add origin git@github.com:foally/tab_stuff.git 
+git push -u origin main

@@ -1,0 +1,13 @@
+ssh-keygen -t rsa -b 4096 -C "nathan.r.fowl@mail.com"
+#eval "$(ssh-agent -s)"
+#ssh-add ~/.ssh/github 
+
+nano config :
+
+Host github.com
+	PreferredAuthentications publickey 
+	IdentityFile C:\Users\nikol\.ssh\github
+
+
+ssh -T git@github.com
+
