@@ -6,7 +6,7 @@
 #git add folder/*
 #git add $HOME/*
 git add *
-git commit -m 'Laptop auto pushed'
-git branch -M main
+git commit -m 'tablet auto pushed'
+git branch -M main_tablet
 #git remote add origin git@github.com:foally/TestPage.git 
-git push -u origin main
+git push -u origin_laptop main_tablet
